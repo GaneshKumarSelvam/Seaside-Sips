@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		754E25892BA807760084D1B2 /* Seaside_SipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E25882BA807760084D1B2 /* Seaside_SipsTests.swift */; };
+		754E25912BA816D30084D1B2 /* ServiceCoordinatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E25902BA816D30084D1B2 /* ServiceCoordinatorMock.swift */; };
+		754E25932BA82D0D0084D1B2 /* HomeScreenViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E25922BA82D0D0084D1B2 /* HomeScreenViewModelTests.swift */; };
+		754E25952BA8302E0084D1B2 /* ServiceCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E25942BA8302E0084D1B2 /* ServiceCoordinatorTests.swift */; };
+		754E25972BA838520084D1B2 /* DrinkListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E25962BA838520084D1B2 /* DrinkListViewModelTests.swift */; };
+		754E25992BA8431D0084D1B2 /* DrinkDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E25982BA8431D0084D1B2 /* DrinkDetailViewModelTests.swift */; };
+		754E259B2BA844500084D1B2 /* SearchDrinkViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E259A2BA844500084D1B2 /* SearchDrinkViewModelTests.swift */; };
+		754E25A32BA845090084D1B2 /* Seaside_SipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E25A22BA845090084D1B2 /* Seaside_SipsUITests.swift */; };
+		754E25A52BA845090084D1B2 /* Seaside_SipsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E25A42BA845090084D1B2 /* Seaside_SipsUITestsLaunchTests.swift */; };
+		754E25AC2BA845790084D1B2 /* LaunchScreenView_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E25AB2BA845790084D1B2 /* LaunchScreenView_UITests.swift */; };
+		754E25AE2BA8471E0084D1B2 /* AccessibilityId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E25AD2BA8471E0084D1B2 /* AccessibilityId.swift */; };
+		754E25B02BA84E2E0084D1B2 /* CategoryScreenView_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E25AF2BA84E2E0084D1B2 /* CategoryScreenView_UITests.swift */; };
+		754E25B22BA866720084D1B2 /* DrinkListView_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E25B12BA866720084D1B2 /* DrinkListView_UITests.swift */; };
+		754E25B42BA87BAA0084D1B2 /* DrinkDetailView_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E25B32BA87BAA0084D1B2 /* DrinkDetailView_UITests.swift */; };
+		754E25B62BA88A1E0084D1B2 /* SearchDrinkView_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E25B52BA88A1E0084D1B2 /* SearchDrinkView_UITests.swift */; };
+		75AF5B1A2BA69B990028E12C /* Seaside_SipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B192BA69B990028E12C /* Seaside_SipsApp.swift */; };
+		75AF5B1E2BA69B9B0028E12C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AF5B1D2BA69B9B0028E12C /* Assets.xcassets */; };
+		75AF5B212BA69B9B0028E12C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AF5B202BA69B9B0028E12C /* Preview Assets.xcassets */; };
+		75AF5B282BA69BFC0028E12C /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B272BA69BFC0028E12C /* LaunchScreenView.swift */; };
+		75AF5B302BA6B4120028E12C /* DynamicTypeSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B2F2BA6B4120028E12C /* DynamicTypeSize.swift */; };
+		75AF5B382BA6B7F10028E12C /* SingleDrink.json in Resources */ = {isa = PBXBuildFile; fileRef = 75AF5B362BA6B7F10028E12C /* SingleDrink.json */; };
+		75AF5B392BA6B7F10028E12C /* Alcoholic.json in Resources */ = {isa = PBXBuildFile; fileRef = 75AF5B372BA6B7F10028E12C /* Alcoholic.json */; };
+		75AF5B3B2BA6B83E0028E12C /* Drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B3A2BA6B83E0028E12C /* Drinks.swift */; };
+		75AF5B3D2BA6B87B0028E12C /* SingleDrink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B3C2BA6B87B0028E12C /* SingleDrink.swift */; };
+		75AF5B402BA6BD4B0028E12C /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B3F2BA6BD4B0028E12C /* ServiceManager.swift */; };
+		75AF5B422BA6BF170028E12C /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B412BA6BF170028E12C /* EndPoint.swift */; };
+		75AF5B442BA6C1FB0028E12C /* CocktailUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B432BA6C1FB0028E12C /* CocktailUtility.swift */; };
+		75AF5B462BA6C2690028E12C /* AppContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B452BA6C2690028E12C /* AppContents.swift */; };
+		75AF5B482BA6C6D80028E12C /* ServiceCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B472BA6C6D80028E12C /* ServiceCoordinator.swift */; };
+		75AF5B4A2BA6D8B10028E12C /* CategoryScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B492BA6D8B10028E12C /* CategoryScreenView.swift */; };
+		75AF5B4C2BA6DBBD0028E12C /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B4B2BA6DBBD0028E12C /* HomeScreenViewModel.swift */; };
+		75AF5B4E2BA6DBE60028E12C /* HomeScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B4D2BA6DBE60028E12C /* HomeScreenModel.swift */; };
+		75AF5B502BA6DC750028E12C /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B4F2BA6DC750028E12C /* Images.swift */; };
+		75AF5B542BA720110028E12C /* DrinkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B532BA720110028E12C /* DrinkListView.swift */; };
+		75AF5B562BA720D40028E12C /* DrinkListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B552BA720D40028E12C /* DrinkListViewModel.swift */; };
+		75AF5B582BA737D90028E12C /* DrinkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B572BA737D90028E12C /* DrinkDetailView.swift */; };
+		75AF5B5A2BA74E360028E12C /* DrinkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B592BA74E360028E12C /* DrinkDetailViewModel.swift */; };
+		75AF5B5E2BA7617D0028E12C /* DrinkRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B5D2BA7617D0028E12C /* DrinkRowView.swift */; };
+		75AF5B602BA7685D0028E12C /* SearchDrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B5F2BA7685D0028E12C /* SearchDrinkView.swift */; };
+		75AF5B622BA768B60028E12C /* SearchDrinkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF5B612BA768B60028E12C /* SearchDrinkViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		754E258A2BA807760084D1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75AF5B0E2BA69B990028E12C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75AF5B152BA69B990028E12C;
+			remoteInfo = "Seaside Sips";
+		};
+		754E25A62BA845090084D1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75AF5B0E2BA69B990028E12C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75AF5B152BA69B990028E12C;
+			remoteInfo = "Seaside Sips";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		754E25862BA807760084D1B2 /* Seaside SipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Seaside SipsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		754E25882BA807760084D1B2 /* Seaside_SipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seaside_SipsTests.swift; sourceTree = "<group>"; };
+		754E25902BA816D30084D1B2 /* ServiceCoordinatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCoordinatorMock.swift; sourceTree = "<group>"; };
+		754E25922BA82D0D0084D1B2 /* HomeScreenViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModelTests.swift; sourceTree = "<group>"; };
+		754E25942BA8302E0084D1B2 /* ServiceCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCoordinatorTests.swift; sourceTree = "<group>"; };
+		754E25962BA838520084D1B2 /* DrinkListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkListViewModelTests.swift; sourceTree = "<group>"; };
+		754E25982BA8431D0084D1B2 /* DrinkDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetailViewModelTests.swift; sourceTree = "<group>"; };
+		754E259A2BA844500084D1B2 /* SearchDrinkViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDrinkViewModelTests.swift; sourceTree = "<group>"; };
+		754E25A02BA845090084D1B2 /* Seaside SipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Seaside SipsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		754E25A22BA845090084D1B2 /* Seaside_SipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seaside_SipsUITests.swift; sourceTree = "<group>"; };
+		754E25A42BA845090084D1B2 /* Seaside_SipsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seaside_SipsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		754E25AB2BA845790084D1B2 /* LaunchScreenView_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView_UITests.swift; sourceTree = "<group>"; };
+		754E25AD2BA8471E0084D1B2 /* AccessibilityId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityId.swift; sourceTree = "<group>"; };
+		754E25AF2BA84E2E0084D1B2 /* CategoryScreenView_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryScreenView_UITests.swift; sourceTree = "<group>"; };
+		754E25B12BA866720084D1B2 /* DrinkListView_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkListView_UITests.swift; sourceTree = "<group>"; };
+		754E25B32BA87BAA0084D1B2 /* DrinkDetailView_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetailView_UITests.swift; sourceTree = "<group>"; };
+		754E25B52BA88A1E0084D1B2 /* SearchDrinkView_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDrinkView_UITests.swift; sourceTree = "<group>"; };
+		75AF5B162BA69B990028E12C /* Seaside Sips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seaside Sips.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75AF5B192BA69B990028E12C /* Seaside_SipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seaside_SipsApp.swift; sourceTree = "<group>"; };
+		75AF5B1D2BA69B9B0028E12C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75AF5B202BA69B9B0028E12C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75AF5B272BA69BFC0028E12C /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		75AF5B2F2BA6B4120028E12C /* DynamicTypeSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeSize.swift; sourceTree = "<group>"; };
+		75AF5B362BA6B7F10028E12C /* SingleDrink.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SingleDrink.json; sourceTree = "<group>"; };
+		75AF5B372BA6B7F10028E12C /* Alcoholic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Alcoholic.json; sourceTree = "<group>"; };
+		75AF5B3A2BA6B83E0028E12C /* Drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinks.swift; sourceTree = "<group>"; };
+		75AF5B3C2BA6B87B0028E12C /* SingleDrink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleDrink.swift; sourceTree = "<group>"; };
+		75AF5B3F2BA6BD4B0028E12C /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		75AF5B412BA6BF170028E12C /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		75AF5B432BA6C1FB0028E12C /* CocktailUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailUtility.swift; sourceTree = "<group>"; };
+		75AF5B452BA6C2690028E12C /* AppContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContents.swift; sourceTree = "<group>"; };
+		75AF5B472BA6C6D80028E12C /* ServiceCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCoordinator.swift; sourceTree = "<group>"; };
+		75AF5B492BA6D8B10028E12C /* CategoryScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryScreenView.swift; sourceTree = "<group>"; };
+		75AF5B4B2BA6DBBD0028E12C /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModel.swift; sourceTree = "<group>"; };
+		75AF5B4D2BA6DBE60028E12C /* HomeScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenModel.swift; sourceTree = "<group>"; };
+		75AF5B4F2BA6DC750028E12C /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		75AF5B532BA720110028E12C /* DrinkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkListView.swift; sourceTree = "<group>"; };
+		75AF5B552BA720D40028E12C /* DrinkListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkListViewModel.swift; sourceTree = "<group>"; };
+		75AF5B572BA737D90028E12C /* DrinkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetailView.swift; sourceTree = "<group>"; };
+		75AF5B592BA74E360028E12C /* DrinkDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetailViewModel.swift; sourceTree = "<group>"; };
+		75AF5B5D2BA7617D0028E12C /* DrinkRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRowView.swift; sourceTree = "<group>"; };
+		75AF5B5F2BA7685D0028E12C /* SearchDrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDrinkView.swift; sourceTree = "<group>"; };
+		75AF5B612BA768B60028E12C /* SearchDrinkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDrinkViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		754E25832BA807760084D1B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754E259D2BA845090084D1B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AF5B132BA69B990028E12C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		754E25872BA807760084D1B2 /* Seaside SipsTests */ = {
+			isa = PBXGroup;
+			children = (
+				754E258F2BA8168C0084D1B2 /* Mocks */,
+				754E25882BA807760084D1B2 /* Seaside_SipsTests.swift */,
+				754E25922BA82D0D0084D1B2 /* HomeScreenViewModelTests.swift */,
+				754E25942BA8302E0084D1B2 /* ServiceCoordinatorTests.swift */,
+				754E25962BA838520084D1B2 /* DrinkListViewModelTests.swift */,
+				754E25982BA8431D0084D1B2 /* DrinkDetailViewModelTests.swift */,
+				754E259A2BA844500084D1B2 /* SearchDrinkViewModelTests.swift */,
+			);
+			path = "Seaside SipsTests";
+			sourceTree = "<group>";
+		};
+		754E258F2BA8168C0084D1B2 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				754E25902BA816D30084D1B2 /* ServiceCoordinatorMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		754E25A12BA845090084D1B2 /* Seaside SipsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				754E25A22BA845090084D1B2 /* Seaside_SipsUITests.swift */,
+				754E25A42BA845090084D1B2 /* Seaside_SipsUITestsLaunchTests.swift */,
+				754E25AB2BA845790084D1B2 /* LaunchScreenView_UITests.swift */,
+				754E25AF2BA84E2E0084D1B2 /* CategoryScreenView_UITests.swift */,
+				754E25B12BA866720084D1B2 /* DrinkListView_UITests.swift */,
+				754E25B32BA87BAA0084D1B2 /* DrinkDetailView_UITests.swift */,
+				754E25B52BA88A1E0084D1B2 /* SearchDrinkView_UITests.swift */,
+			);
+			path = "Seaside SipsUITests";
+			sourceTree = "<group>";
+		};
+		75AF5B0D2BA69B990028E12C = {
+			isa = PBXGroup;
+			children = (
+				75AF5B182BA69B990028E12C /* Seaside Sips */,
+				754E25872BA807760084D1B2 /* Seaside SipsTests */,
+				754E25A12BA845090084D1B2 /* Seaside SipsUITests */,
+				75AF5B172BA69B990028E12C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75AF5B172BA69B990028E12C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75AF5B162BA69B990028E12C /* Seaside Sips.app */,
+				754E25862BA807760084D1B2 /* Seaside SipsTests.xctest */,
+				754E25A02BA845090084D1B2 /* Seaside SipsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75AF5B182BA69B990028E12C /* Seaside Sips */ = {
+			isa = PBXGroup;
+			children = (
+				75AF5B192BA69B990028E12C /* Seaside_SipsApp.swift */,
+				75AF5B2E2BA6B3FF0028E12C /* Utilities */,
+				75AF5B292BA69CE70028E12C /* Views */,
+				75AF5B2A2BA69CEE0028E12C /* ViewModels */,
+				75AF5B2B2BA69CF40028E12C /* Models */,
+				75AF5B3E2BA6BCAD0028E12C /* Service */,
+				75AF5B352BA6B7DA0028E12C /* Json */,
+				75AF5B1D2BA69B9B0028E12C /* Assets.xcassets */,
+				75AF5B1F2BA69B9B0028E12C /* Preview Content */,
+			);
+			path = "Seaside Sips";
+			sourceTree = "<group>";
+		};
+		75AF5B1F2BA69B9B0028E12C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				75AF5B202BA69B9B0028E12C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75AF5B292BA69CE70028E12C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				75AF5B272BA69BFC0028E12C /* LaunchScreenView.swift */,
+				75AF5B492BA6D8B10028E12C /* CategoryScreenView.swift */,
+				75AF5B532BA720110028E12C /* DrinkListView.swift */,
+				75AF5B5D2BA7617D0028E12C /* DrinkRowView.swift */,
+				75AF5B572BA737D90028E12C /* DrinkDetailView.swift */,
+				75AF5B5F2BA7685D0028E12C /* SearchDrinkView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		75AF5B2A2BA69CEE0028E12C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				75AF5B4B2BA6DBBD0028E12C /* HomeScreenViewModel.swift */,
+				75AF5B552BA720D40028E12C /* DrinkListViewModel.swift */,
+				75AF5B592BA74E360028E12C /* DrinkDetailViewModel.swift */,
+				75AF5B612BA768B60028E12C /* SearchDrinkViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		75AF5B2B2BA69CF40028E12C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				75AF5B3A2BA6B83E0028E12C /* Drinks.swift */,
+				75AF5B3C2BA6B87B0028E12C /* SingleDrink.swift */,
+				75AF5B4D2BA6DBE60028E12C /* HomeScreenModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		75AF5B2E2BA6B3FF0028E12C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				75AF5B2F2BA6B4120028E12C /* DynamicTypeSize.swift */,
+				75AF5B412BA6BF170028E12C /* EndPoint.swift */,
+				75AF5B432BA6C1FB0028E12C /* CocktailUtility.swift */,
+				75AF5B452BA6C2690028E12C /* AppContents.swift */,
+				75AF5B4F2BA6DC750028E12C /* Images.swift */,
+				754E25AD2BA8471E0084D1B2 /* AccessibilityId.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		75AF5B352BA6B7DA0028E12C /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				75AF5B372BA6B7F10028E12C /* Alcoholic.json */,
+				75AF5B362BA6B7F10028E12C /* SingleDrink.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		75AF5B3E2BA6BCAD0028E12C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				75AF5B3F2BA6BD4B0028E12C /* ServiceManager.swift */,
+				75AF5B472BA6C6D80028E12C /* ServiceCoordinator.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		754E25852BA807760084D1B2 /* Seaside SipsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 754E258E2BA807760084D1B2 /* Build configuration list for PBXNativeTarget "Seaside SipsTests" */;
+			buildPhases = (
+				754E25822BA807760084D1B2 /* Sources */,
+				754E25832BA807760084D1B2 /* Frameworks */,
+				754E25842BA807760084D1B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				754E258B2BA807760084D1B2 /* PBXTargetDependency */,
+			);
+			name = "Seaside SipsTests";
+			productName = "Seaside SipsTests";
+			productReference = 754E25862BA807760084D1B2 /* Seaside SipsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		754E259F2BA845090084D1B2 /* Seaside SipsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 754E25A82BA845090084D1B2 /* Build configuration list for PBXNativeTarget "Seaside SipsUITests" */;
+			buildPhases = (
+				754E259C2BA845090084D1B2 /* Sources */,
+				754E259D2BA845090084D1B2 /* Frameworks */,
+				754E259E2BA845090084D1B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				754E25A72BA845090084D1B2 /* PBXTargetDependency */,
+			);
+			name = "Seaside SipsUITests";
+			productName = "Seaside SipsUITests";
+			productReference = 754E25A02BA845090084D1B2 /* Seaside SipsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		75AF5B152BA69B990028E12C /* Seaside Sips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75AF5B242BA69B9B0028E12C /* Build configuration list for PBXNativeTarget "Seaside Sips" */;
+			buildPhases = (
+				75AF5B122BA69B990028E12C /* Sources */,
+				75AF5B132BA69B990028E12C /* Frameworks */,
+				75AF5B142BA69B990028E12C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Seaside Sips";
+			productName = "Seaside Sips";
+			productReference = 75AF5B162BA69B990028E12C /* Seaside Sips.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75AF5B0E2BA69B990028E12C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					754E25852BA807760084D1B2 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 75AF5B152BA69B990028E12C;
+					};
+					754E259F2BA845090084D1B2 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 75AF5B152BA69B990028E12C;
+					};
+					75AF5B152BA69B990028E12C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 75AF5B112BA69B990028E12C /* Build configuration list for PBXProject "Seaside Sips" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75AF5B0D2BA69B990028E12C;
+			productRefGroup = 75AF5B172BA69B990028E12C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75AF5B152BA69B990028E12C /* Seaside Sips */,
+				754E25852BA807760084D1B2 /* Seaside SipsTests */,
+				754E259F2BA845090084D1B2 /* Seaside SipsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		754E25842BA807760084D1B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754E259E2BA845090084D1B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AF5B142BA69B990028E12C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AF5B392BA6B7F10028E12C /* Alcoholic.json in Resources */,
+				75AF5B212BA69B9B0028E12C /* Preview Assets.xcassets in Resources */,
+				75AF5B382BA6B7F10028E12C /* SingleDrink.json in Resources */,
+				75AF5B1E2BA69B9B0028E12C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		754E25822BA807760084D1B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754E25952BA8302E0084D1B2 /* ServiceCoordinatorTests.swift in Sources */,
+				754E259B2BA844500084D1B2 /* SearchDrinkViewModelTests.swift in Sources */,
+				754E25972BA838520084D1B2 /* DrinkListViewModelTests.swift in Sources */,
+				754E25932BA82D0D0084D1B2 /* HomeScreenViewModelTests.swift in Sources */,
+				754E25912BA816D30084D1B2 /* ServiceCoordinatorMock.swift in Sources */,
+				754E25992BA8431D0084D1B2 /* DrinkDetailViewModelTests.swift in Sources */,
+				754E25892BA807760084D1B2 /* Seaside_SipsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754E259C2BA845090084D1B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754E25B02BA84E2E0084D1B2 /* CategoryScreenView_UITests.swift in Sources */,
+				754E25AC2BA845790084D1B2 /* LaunchScreenView_UITests.swift in Sources */,
+				754E25A52BA845090084D1B2 /* Seaside_SipsUITestsLaunchTests.swift in Sources */,
+				754E25B62BA88A1E0084D1B2 /* SearchDrinkView_UITests.swift in Sources */,
+				754E25A32BA845090084D1B2 /* Seaside_SipsUITests.swift in Sources */,
+				754E25B42BA87BAA0084D1B2 /* DrinkDetailView_UITests.swift in Sources */,
+				754E25B22BA866720084D1B2 /* DrinkListView_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AF5B122BA69B990028E12C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AF5B1A2BA69B990028E12C /* Seaside_SipsApp.swift in Sources */,
+				75AF5B602BA7685D0028E12C /* SearchDrinkView.swift in Sources */,
+				75AF5B4C2BA6DBBD0028E12C /* HomeScreenViewModel.swift in Sources */,
+				75AF5B462BA6C2690028E12C /* AppContents.swift in Sources */,
+				75AF5B562BA720D40028E12C /* DrinkListViewModel.swift in Sources */,
+				75AF5B282BA69BFC0028E12C /* LaunchScreenView.swift in Sources */,
+				75AF5B3B2BA6B83E0028E12C /* Drinks.swift in Sources */,
+				75AF5B4E2BA6DBE60028E12C /* HomeScreenModel.swift in Sources */,
+				75AF5B4A2BA6D8B10028E12C /* CategoryScreenView.swift in Sources */,
+				75AF5B502BA6DC750028E12C /* Images.swift in Sources */,
+				75AF5B302BA6B4120028E12C /* DynamicTypeSize.swift in Sources */,
+				75AF5B442BA6C1FB0028E12C /* CocktailUtility.swift in Sources */,
+				75AF5B402BA6BD4B0028E12C /* ServiceManager.swift in Sources */,
+				75AF5B5E2BA7617D0028E12C /* DrinkRowView.swift in Sources */,
+				75AF5B5A2BA74E360028E12C /* DrinkDetailViewModel.swift in Sources */,
+				75AF5B422BA6BF170028E12C /* EndPoint.swift in Sources */,
+				75AF5B482BA6C6D80028E12C /* ServiceCoordinator.swift in Sources */,
+				75AF5B542BA720110028E12C /* DrinkListView.swift in Sources */,
+				75AF5B3D2BA6B87B0028E12C /* SingleDrink.swift in Sources */,
+				754E25AE2BA8471E0084D1B2 /* AccessibilityId.swift in Sources */,
+				75AF5B622BA768B60028E12C /* SearchDrinkViewModel.swift in Sources */,
+				75AF5B582BA737D90028E12C /* DrinkDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		754E258B2BA807760084D1B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75AF5B152BA69B990028E12C /* Seaside Sips */;
+			targetProxy = 754E258A2BA807760084D1B2 /* PBXContainerItemProxy */;
+		};
+		754E25A72BA845090084D1B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75AF5B152BA69B990028E12C /* Seaside Sips */;
+			targetProxy = 754E25A62BA845090084D1B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		754E258C2BA807760084D1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BW3936529M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gansartech.Seaside-SipsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seaside Sips.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Seaside Sips";
+			};
+			name = Debug;
+		};
+		754E258D2BA807760084D1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BW3936529M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gansartech.Seaside-SipsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seaside Sips.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Seaside Sips";
+			};
+			name = Release;
+		};
+		754E25A92BA845090084D1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BW3936529M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gansartech.Seaside-SipsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Seaside Sips";
+			};
+			name = Debug;
+		};
+		754E25AA2BA845090084D1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BW3936529M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gansartech.Seaside-SipsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Seaside Sips";
+			};
+			name = Release;
+		};
+		75AF5B222BA69B9B0028E12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75AF5B232BA69B9B0028E12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75AF5B252BA69B9B0028E12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Seaside Sips/Preview Content\"";
+				DEVELOPMENT_TEAM = BW3936529M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gansartech.Seaside-Sips";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75AF5B262BA69B9B0028E12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Seaside Sips/Preview Content\"";
+				DEVELOPMENT_TEAM = BW3936529M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gansartech.Seaside-Sips";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		754E258E2BA807760084D1B2 /* Build configuration list for PBXNativeTarget "Seaside SipsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754E258C2BA807760084D1B2 /* Debug */,
+				754E258D2BA807760084D1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		754E25A82BA845090084D1B2 /* Build configuration list for PBXNativeTarget "Seaside SipsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754E25A92BA845090084D1B2 /* Debug */,
+				754E25AA2BA845090084D1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75AF5B112BA69B990028E12C /* Build configuration list for PBXProject "Seaside Sips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AF5B222BA69B9B0028E12C /* Debug */,
+				75AF5B232BA69B9B0028E12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75AF5B242BA69B9B0028E12C /* Build configuration list for PBXNativeTarget "Seaside Sips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AF5B252BA69B9B0028E12C /* Debug */,
+				75AF5B262BA69B9B0028E12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75AF5B0E2BA69B990028E12C /* Project object */;
+}
